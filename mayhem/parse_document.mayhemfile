@@ -1,0 +1,7 @@
+project: toml-edit
+target: parse-document
+
+cmds:
+  - cmd: /parse_document
+  - cmd: /parse_document_no_inst @@
+    libfuzzer: false
